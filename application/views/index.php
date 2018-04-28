@@ -1278,23 +1278,25 @@
                             <h2>Contact Us</h2>
                             <h3>Feel free to contact us</h3>
                         </header>
-
-                        <form method="get" action="#" id="contact-form">
+                        
+                        <?php echo form_open(); ?>
+                        <form method="post" action="http://localhost/fp" id="contact-form">
                             <div class="row">
                                 <label for="user-name" class="col-sm-6 unique">Name
-                                    <input type="text" name="username" id="user-name" required>
+                                    <input type="text" name="nama" value="<?php echo set_value('nama'); ?>" required>
                                 </label>
                                 <label for="user-email" class="col-sm-6 unique">Email
-                                    <input type="email" name="useremail" id="user-email" required>
+                                    <input type="email" name="email" value="<?php echo set_value('email'); ?>" required>
                                 </label>
                                 <label for="message" class="col-sm-12 unique">Your Message
-                                    <textarea name="message" id="message" required></textarea>
+                                    <textarea name="pesan" id="message" required><?php echo set_value('pesan'); ?></textarea>
                                 </label>
                                 <div class="col-sm-12">
-                                    <button type="submit" class="btn-unique" id="submit">Send</button>
+                                    <button type="submit" value="Simpan" name="submit" class="btn-unique">Send</button>
                                 </div>
                             </div>
                         </form>
+                        <?php echo form_close(); ?>
                     </div>
                 </div>
             </section>
