@@ -175,21 +175,21 @@
               <h2>Buat Pesanan</h2>
                 <br>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form action="<?php echo base_url(). 'pesanan/tambah_aksi'; ?>"  method="post" class="work-request">
                   
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
+                    <input id="name" name="nama" type="text" spellcheck="false">
                     <label for="name">Name</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" name="email" type="email" spellcheck="false">
                     <label for="email">Email</label>
                   </div>
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text">
+                    <input id="name" name="pesanan" type="text">
                     <label for="name">Pesanan</label>
                   </div>
                 </div>
