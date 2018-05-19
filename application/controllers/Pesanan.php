@@ -36,7 +36,7 @@ class Pesanan extends CI_Controller{
     $where = array('id' => $id);
 
     $this->m_admin->update_data($where,$data,'pesanan');
-    redirect('admin/');
+    redirect('pesanan');
   }
 
   function hapus($id){

@@ -83,7 +83,7 @@
                         <img src="assets/img/1.png" alt="Victory">
                       </div>
                       <p class="slider--item-title">Bermanfaat Sebagai Antikanker</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-description"></p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
@@ -92,7 +92,7 @@
                         <img src="assets/img/2.png" alt="Metiew and Smith">
                       </div>
                       <p class="slider--item-title">Menurunkan Tekanan Darah Tinggi</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-description"></p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
@@ -101,7 +101,7 @@
                         <img src="assets/img/3.jpg" alt="Alex Nowak">
                       </div>
                       <p class="slider--item-title">Berperan sebagai Antioksidan</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-description"></p>
                     </a>
                   </li>
                 </ul>
@@ -163,7 +163,6 @@
                     <a href="tel:+6281294394337">+62 812 9439 4337</a>
                   </div>
                   <ul class="modal--options">
-                    <li><a href="#0">dribbble</a></li>
                     <li><a href="mailto:dindaidris98/2gmail.com">Hubungi Kami</a></li>
                   </ul>
                 </div>
